@@ -9,7 +9,7 @@ Before starting, the program mathematically predicts the maximum number of attem
 ## ⚡ Technical Highlights & Optimization
 
 * **$O(1)$ Memory Complexity:** Unlike naive implementations that generate massive arrays using `list(range())` or loops, this version works entirely on pure mathematical boundaries (`low` and `high` variables). It allocates **zero extra RAM**, allowing it to handle ranges up to billions seamlessly without triggers like Out of Memory (OOM) errors.
-* **Logarithmic Time Complexity ($O(\log n)$):** The game guarantees finding the target within the exact mathematical limit calculated via $\lceil\log_2(\text{count})\rceil$.
+* **Logarithmic Time Complexity (O(log n)):** The game guarantees finding the target within the exact mathematical limit calculated via $\lceil\log_2(\text{count})\rceil$.
 * **Robust Input Validation:** Built-in safeguards handle deceptive user behavior (e.g., inputting `y` when the guess is mathematically incorrect) and invalid inputs without breaking the search loop.
 
 ---
